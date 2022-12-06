@@ -1,0 +1,32 @@
+.container1{
+    height: 550px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: var(--chakra-fonts-body)
+}
+.container1>h1{
+    text-align: center;
+    color: #00828c;
+}
+.Grid1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.Grid1>div{
+    /* border: 1px solid powderblue; */
+}
+.img{
+    border-radius: 100%;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+.personal{
+    margin-top: 90px;
+    width: 80%;
+}
+.personal p{
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
