@@ -1,0 +1,156 @@
+
+.contactContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width:95%;
+    margin: auto;
+    padding-bottom: 3%;
+  }
+  .cont1>h3{
+    color: white;
+    margin-top: 80px;
+  }
+  .conForm{
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(11,12,16,0.4);
+    backdrop-filter: blur(5px);
+    margin-top: 20%;
+    padding: 5% 10%;
+    border-radius: 5px;
+    font-weight: bold;
+    
+  }
+  .cont1{
+    width:auto;
+    text-align: left;
+    
+    font-size: 24px;
+  }
+ 
+  
+  .mainContactContainer{
+    /* background-color: #00828c; */
+    background-image: url("https://shaheen-ahmad07.netlify.app/static/media/bg-1.e7a118c3.jpg");
+    padding-bottom: 1%;
+    /* background-image: url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=412&q=80'); */
+    /* background-size:100%; */
+  }
+  
+  .contactHeading{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .social>a{
+    color:white;
+   font-size: 30px;
+   margin-right: 10%;
+  }
+  .social{
+    display: flex;
+    /* border:1px solid red; */
+  
+  }
+  .cont2{
+    height: auto;
+   
+    width:30%;
+    
+   
+  }
+  
+  .copyRight{
+    color:black;
+    margin-top: 0px;
+    
+  }
+  .conForm>input{
+    margin-bottom: 4%;
+    padding:5% 3%
+  }
+  .sub{
+    background-color: #00828c;
+    color:white;
+    
+    border: none;
+    border-radius: 5px;
+  }
+  .c1{
+    width: 100%;
+    line-height: 60px;
+    margin-top: 4%;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 950px) {
+    .contactContainer{
+      display: flex;
+      justify-content: space-evenly;
+      width:80%;
+      margin: auto;
+      padding-bottom: 3%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cont2{
+      height: auto;
+      width:auto;
+      width:50%;
+     
+    }
+    .conForm>input{
+      margin-bottom: 4%;
+      padding:2% 2%
+    }
+    .cont1{
+      text-align: left;
+      
+      font-size: 20px;
+    }
+    
+  }
+  @media only screen and (min-width: 0px) and (max-width: 710px) {
+    .cont2{
+      height: auto;
+      width:auto;
+      width:60%;
+     
+    }
+    .conForm>input{
+      margin-bottom: 4%;
+      padding:2% 4%
+    }
+    .cont1{
+      text-align: left;
+      
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 600px) {
+    .cont2{
+      height: auto;
+      width:auto;
+      width:90%;
+     
+    }
+    .conForm>input{
+      margin-bottom: 4%;
+      padding:2% 4%
+    }
+    .cont1{
+      text-align: left;
+      
+      font-size: 18px;
+    }
+    
+  }
+  

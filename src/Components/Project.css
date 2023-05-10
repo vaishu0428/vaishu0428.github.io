@@ -1,0 +1,69 @@
+/* .main-div{
+    width:"80%";
+} */
+.projectdiv{
+    height: auto;
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+ .projectHeading{
+    color: #00828c;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .netlify-btn{
+     border:"3px solid tomato";
+     font-weight:"bold"; 
+     font-size:"18px"; 
+     cursor:"pointer";
+     padding:"5px 12px";
+     /* border-radius:"10px"; */
+     display:"flex"; 
+     gap:"5px"; 
+     align-items:"center"
+ }
+ .github-btn{
+     border:"3px solid tomato";
+     font-weight:"bold"; 
+     font-size:"18px"; 
+     cursor:"pointer";
+     padding:"5px 12px";
+     border-radius:"10px";
+     display:"flex"; 
+     gap:"5px"; 
+     align-items:"center";
+ }
+ @media only screen and (min-width: 613px) and (max-width: 1090px) {
+    
+    .projectdiv{
+        height: auto;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+    }
+    
+    
+  }
+
+
+  @media only screen and (min-width: 0px) and (max-width: 612px) {
+    .projectdiv{
+        height: auto;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+    }
+    
+    
+    }
+  

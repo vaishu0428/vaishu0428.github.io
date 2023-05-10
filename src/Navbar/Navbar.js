@@ -11,9 +11,14 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isMobile,setIsMobile]=React.useState(false)
+  const handleClick = () => {
+   window.open(
+     "/fw20_0865-Vaishnavi-Chaudhari-Resume.pdf"
+   );
+ };
   return (
     <nav className="navbar">
-       <h3 className="logo">Vaishnavi</h3>
+       <h3 className="logo">Vaishnavi </h3>
        <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
        onClick={()=>setIsMobile(false)}>
           <Link href="#home" className="home">
@@ -31,7 +36,9 @@ const Navbar = () => {
           <Link href="#contact" className="contact">
           <li>Contact</li>
           </Link>
-          <Link href="https://drive.google.com/file/d/1FAdpHUY9EaWyTcKBbuFFwy9a0Prxcuz2/view?usp=sharing" className="resume">
+          <Link href="fw20_0865-Vaishnavi-Chaudhari-Resume.pdf"
+                download="fw20_0865-Vaishnavi-Chaudhari-Resume.pdf"
+                onClick={handleClick} textDecoration={'none'} className="resume">
           <li>Resume</li>
           </Link>
        </ul>
